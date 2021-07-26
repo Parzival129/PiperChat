@@ -3,7 +3,7 @@
 ## Running the app on development server
 * `npm install`
 * `node index.js`
-* open `localhost:8000/home` for the homepage or 'localhost:8000' to go directly to the call interface
+* open `localhost:8000/home` for the homepage or `localhost:8000` to go directly to the call interface
 
 ## Obtaining TURN/STUN credentials using Xiysys
 * Do not use the credentials provided
