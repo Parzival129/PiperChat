@@ -1,4 +1,4 @@
-# Video Chat Application
+# PIPERCHAT
 * Only two persons can join in one room
 ## Running the app on development server
 * `npm install`
