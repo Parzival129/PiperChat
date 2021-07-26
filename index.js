@@ -15,6 +15,9 @@ app.get("/", function(req, res){
 	res.render("index.ejs");
 });
 
+app.get("/home", function(req, res) {
+	res.render('home.ejs');
+});
 
 
 var server = http.createServer(app);
