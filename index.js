@@ -15,6 +15,8 @@ app.get("/", function(req, res){
 	res.render("index.ejs");
 });
 
+
+
 var server = http.createServer(app);
 
 server.listen(process.env.PORT || 8000);
