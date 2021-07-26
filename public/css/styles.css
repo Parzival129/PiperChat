@@ -22,9 +22,14 @@ body {
 	font-family: 'Baloo Tamma 2', cursive;
 }
 
+.leave-button {
+	
+}
+
 .title-text {
 	font-family: "Lucida Console", "Courier New", monospace;
 	color: #4dba45;
+	font-size: 60px;
 }
 
 .h-100 {
