@@ -23,7 +23,27 @@ body {
 }
 
 .leave-button {
+	background-color:#c74545;
+	border-radius:6px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:13px 41px;
+	text-decoration:none;
+	text-align: center;
+	margin:auto;
+	display:block;
 	
+	text-shadow:1px 1px 0px #ff0048;
+}
+.leave-button:hover {
+	background-color:#db1818;
+}
+.leave-button:active {
+	position:relative;
+	top:1px;
 }
 
 .title-text {
