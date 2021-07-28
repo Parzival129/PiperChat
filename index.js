@@ -7,10 +7,11 @@ var app = express();
 var http = require('http');
 //For signalling in WebRTC
 var socketIO = require('socket.io');
-
+const PORT = 8000;
 
 app.use(express.static('public'))
 
+console.log('Defining roots/endpoints');
 app.get("/", function(req, res){
 	res.render("index.ejs");
 });
@@ -22,10 +23,11 @@ app.get("/home", function(req, res) {
 
 var server = http.createServer(app);
 
-server.listen(process.env.PORT || 8000);
+server.listen(process.env.PORT || PORT);
+console.log(`Server is listening on port ${PORT}`);
 
 var io = socketIO(server);
-
+console.log('Defined socket server');
 io.sockets.on('connection', function(socket) {
 
 	// Convenience function to log server messages on the client.
