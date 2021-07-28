@@ -5,6 +5,8 @@
 * `node index.js`
 * open `localhost:8000/home` for the homepage or `localhost:8000` to go directly to the call interface
 
+* You can find a deployed version hosted on Heroku at https://piper-chat-video.herokuapp.com/
+
 ## Obtaining TURN/STUN credentials using Xiysys
 * Do not use the credentials provided
 * Go to https://xirsys.com/
